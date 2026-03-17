@@ -300,6 +300,54 @@ button {
   font-size: 0.9rem;
 }
 
+/* Contact Panel */
+.contact-panel h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+}
+
+.contact-desc {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 1.2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  padding: 0.8rem;
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: all 0.3s;
+}
+
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.formspree-hint {
+  font-size: 0.75rem;
+  opacity: 0.5;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
 /* Responsive Styles */
 @media (max-width: 480px) {
   .counter-display {

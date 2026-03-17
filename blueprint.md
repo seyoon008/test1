@@ -19,6 +19,10 @@
 5. 시각적 긴장감을 위한 숫자 롤링 애니메이션.
 6. 뽑기 히스토리 보관 (그룹 정보 포함) 및 리셋 기능.
 7. 모든 숫자를 뽑았을 때 '종료' 안내.
+8. Formspree를 통한 제휴 문의 폼 (성함, 이메일, 내용 입력).
+
+### Formspree 설정 안내
+- 사용자는 `index.html` 내 `form` 태그의 `action` 주소 중 `YOUR_FORMSPREE_ID` 부분을 자신의 Formspree 프로젝트 ID로 교체하여 실제로 메일을 받을 수 있습니다.
 
 ## 현재 진행 계획 및 단계 (Current Plan & Steps)
 
