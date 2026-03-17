@@ -19,9 +19,15 @@
     </header>
 
     <section class="control-panel glass">
-      <div class="input-group">
-        <label for="max-seats">총 좌석 수</label>
-        <input type="number" id="max-seats" min="1" max="1000" value="40" placeholder="예: 40">
+      <div class="input-row">
+        <div class="input-group">
+          <label for="max-seats">총 좌석 수</label>
+          <input type="number" id="max-seats" min="1" max="1000" value="40">
+        </div>
+        <div class="input-group">
+          <label for="group-count">묶음(그룹) 수</label>
+          <input type="number" id="group-count" min="1" max="100" value="1">
+        </div>
       </div>
       <div class="button-group">
         <button id="btn-pick" class="btn-primary">번호 뽑기</button>
@@ -30,10 +36,11 @@
     </section>
 
     <section class="display-area glass">
+      <div id="group-display" class="group-badge"></div>
       <div class="counter-display">
         <span id="current-number">?</span>
       </div>
-      <div id="status-message" class="status-message">총 좌석 수를 설정하고 뽑기를 눌러주세요.</div>
+      <div id="status-message" class="status-message">총 좌석 수와 그룹 수를 설정하고 뽑기를 눌러주세요.</div>
     </section>
 
     <section class="history-panel glass">
